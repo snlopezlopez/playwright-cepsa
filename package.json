@@ -1,0 +1,20 @@
+{
+  "name": "playwright-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "C:/pd/cepsa/playwright-cucumber-master/node_modules/.bin/cucumber-js --require cucumber.js --require step-definitions/**/*.js -f html:cucumber_report.html --publish-quiet",
+    "report": "node reporter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.11.1",
+    "chai": "^4.3.7",
+    "cucumber-html-reporter": "^5.5.1",
+    "playwright": "^1.30.0",
+    "prettier": "^2.8.4"
+  }
+}
